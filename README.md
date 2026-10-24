@@ -57,6 +57,14 @@ Copy `.env.example` to `.env.local`. Set `SERPAPI_API_KEY` for live web and mode
 cp .env.example .env.local
 ```
 
+### Get a SerpApi key
+
+1. Create an account or sign in at [SerpApi](https://serpapi.com/).
+2. Find your API key in the [SerpApi dashboard](https://serpapi.com/manage-api-key).
+3. Paste it after `SERPAPI_API_KEY=` in `.env.local`, then restart the Vite dev server.
+
+Keep the key private: do not commit `.env.local` or add the key to a `VITE_`-prefixed variable. The app reads this key on the server side for live web and model searches.
+
 Example values:
 
 ```env
