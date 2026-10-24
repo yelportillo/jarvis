@@ -2,6 +2,12 @@
 
 JARVIS is a holographic, desktop-first AI assistant built in React + TypeScript. The app includes a futuristic interface, voice-enabled search flow, model catalog, 3D viewer, and local persistence.
 
+## Screenshots
+
+![JARVIS screenshot 1](./image1.jpg)
+
+![JARVIS screenshot 2](./image2.jpg)
+
 ## Stack
 
 - Frontend: React + TypeScript + Vite
