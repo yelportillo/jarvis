@@ -51,7 +51,7 @@ npm run lint
 
 ## Environment variables
 
-Copy `.env.example` to `.env.local` and fill in any optional secrets used for live integrations.
+Copy `.env.example` to `.env.local`. Set `SERPAPI_API_KEY` for live web and model searches; Ollama settings can be changed if your local server or model differs from the defaults.
 
 ```bash
 cp .env.example .env.local
@@ -60,16 +60,10 @@ cp .env.example .env.local
 Example values:
 
 ```env
-VITE_OPENAI_API_KEY=
-VITE_OPENAI_MODEL=gpt-4o-mini
-VITE_TTS_VOICE=
-VITE_PRINTABLES_API_KEY=
-VITE_THINGIVERSE_API_KEY=
-VITE_MAKERWORLD_API_KEY=
-VITE_MODEL_REPO_BASE_URL=
 SERPAPI_API_KEY=
 OLLAMA_BASE_URL=http://127.0.0.1:11434
 OLLAMA_MODEL=llama3.2:latest
+PRINTER_IP=192.168.1.100
 ```
 
 ## Integration limitations and verified status
