@@ -10,6 +10,23 @@ JARVIS is a holographic, desktop-first AI assistant built in React + TypeScript.
 - State and persistence: React state + localStorage
 - Voice: browser speech recognition and speech synthesis where supported
 
+## Prerequisites
+
+Before running JARVIS locally, make sure you have:
+
+- Node.js 20+ and npm installed
+- Ollama installed and running locally
+- A model downloaded in Ollama, such as `llama3.2:latest`
+
+Install Ollama from the official download page for your OS: https://ollama.com/download, then start the service and pull a model:
+
+```bash
+ollama serve
+ollama pull llama3.2:latest
+```
+
+You can verify the local endpoint is available at `http://127.0.0.1:11434`.
+
 ## Running locally
 
 ```bash
